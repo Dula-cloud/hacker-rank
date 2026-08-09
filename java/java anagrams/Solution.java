@@ -27,7 +27,7 @@ public class Solution {
                 }
             }
             if (!found) {
-                // return false;
+                return false;
             }
         }
         return sb.length() == 0;
