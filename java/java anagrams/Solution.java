@@ -30,29 +30,29 @@ public class Solution {
         }
         return sb.length() == 0;
 
-        // Method with HashMap********8
+        Method with HashMap********8
 
-        // if (a.length() != b.length()) {
-        // return false;
-        // }
+        if (a.length() != b.length()) {
+        return false;
+        }
 
-        // HashMap<Character, Integer> charCount = new HashMap<>();
+        HashMap<Character, Integer> charCount = new HashMap<>();
 
-        // for (char c : a.toCharArray()) {
-        // charCount.put(c, charCount.getOrDefault(c, 0) + 1);
-        // }
+        for (char c : a.toCharArray()) {
+        charCount.put(c, charCount.getOrDefault(c, 0) + 1);
+        }
 
-        // for (char c : b.toCharArray()) {
-        // if(!charCount.containsKey(c)){
-        // return false;
-        // }
-        // charCount.put(c,charCount.get(c)-1);
-        // if(charCount.get(c) == 0){
-        // return false;
-        // }
-        // }
+        for (char c : b.toCharArray()) {
+        if(!charCount.containsKey(c)){
+        return false;
+        }
+        charCount.put(c,charCount.get(c)-1);
+        if(charCount.get(c) == 0){
+        return false;
+        }
+        }
 
-        // return charCount.isEmpty();
+        return charCount.isEmpty();
 
     }
 
