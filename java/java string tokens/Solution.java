@@ -8,9 +8,13 @@ public class Solution {
         String s = scan.nextLine();
 
 
-        String b=  "text";
+        String a=  "text";
+        String b=  "Sample";
+        String c=  "Text";
+        StringB sb = a+b +c;
         // Write your code here.
         scan.close();
     }
 }
+
 
