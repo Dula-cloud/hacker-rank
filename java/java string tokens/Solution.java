@@ -8,7 +8,7 @@ public class Solution {
         String s = scan.nextLine();
 
 
-        
+        String b=  "text";
         // Write your code here.
         scan.close();
     }
