@@ -11,7 +11,7 @@ public class Solution {
         String a=  "text";
         String b=  "Sample";
         String c=  "Text";
-        StringB sb = a+b +c;
+        StringBuilder sb = (StringBuilder)a+b +c;
         // Write your code here.
         scan.close();
     }
