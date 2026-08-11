@@ -12,7 +12,6 @@ public class Solution {
         String b=  "Sample";dda
         String c=  "Text";werwrd
         String c=  "23t";
-        jkkkkl;k mlmlk
         StringBuilder sb = (StringBuilder)a;
         // Write your code here.
         scan.close();
