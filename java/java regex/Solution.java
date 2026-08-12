@@ -14,4 +14,11 @@ class Solution{
     }
 }
 
+class MyRegex {
+
+    String pattern = ""
+
+    
+}
+
 //Write your code here
