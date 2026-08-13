@@ -13,6 +13,8 @@ public class Solution {
             lineNo++;
         }
 
+        in.close();
+
 
     }
 }
