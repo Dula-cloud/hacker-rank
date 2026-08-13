@@ -9,6 +9,7 @@ class Solution {
         for (int i = 0; i < t; i++) {
             int a = in.nextInt();
             int b = in.nextInt();
+            klkjm hhhhi
             int n = in.nextInt();
 
             double loopSec = 0;
